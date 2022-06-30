@@ -1,0 +1,97 @@
+<resources>
+    <!-- app cfg -->
+    <string name="app_name">CitaPrevia</string>
+    <string name="date_format" translatable="false">dd-MMMM-yyyy</string>
+    <string name="prefs_file" translatable="false">com.jmg.citaprevia.PREFERENCE_FILE_KEY</string>
+    <string name="facebook_app_id" translatable="false">389958689765972</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb389958689765972</string>
+    <string name="facebook_client_token" translatable="false">cf96f257bae22b8eafab540363b5e384</string>
+    <string name="fragment_to_load" translatable="false">fragmentToLoad</string>
+    <string name="appointment" translatable="false">appointment</string>
+    <string name="user" translatable="false">user</string>
+    <string name="my_events" translatable="false">Mis citas</string>
+    <string name="explore_calendars" translatable="false">Calendarios</string>
+    <string name="view_calendar" translatable="false">Calendario</string>
+    <string name="date_param" translatable="false">date</string>
+    <string name="hour_event" translatable="false">hour_event</string>
+    <string name="host" translatable="false">host</string>
+    <string name="settings_view" translatable="false">settings</string>
+
+
+    <!-- ui text -->
+    <string name="accept">Aceptar</string>
+    <string name="continue_with">Continuar con</string>
+    <string name="google_login">Iniciar sesión con Google</string>
+    <string name="facebook_login">Iniciar sesión con Facebook</string>
+    <string name="email_login">Iniciar sesión con Email</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="not_registered">¿Aun no estás registrado?</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="email">Email</string>
+    <string name="email_lower_case">email</string>
+    <string name="password">Contraseña</string>
+    <string name="password_again">Repita Contraseña</string>
+    <string name="provider">Provider</string>
+    <string name="provider_lower_case">provider</string>
+    <string name="name">Nombre</string>
+    <string name="name_lower_case">nombre</string>
+    <string name="my_appointments">Mis eventos</string>
+    <string name="settings">Ajustes</string>
+    <string name="new_account_welcome">Cuenta creada. ¡Bienvenido, %1$s!</string>
+    <string name="no_events">No hay eventos</string>
+    <string name="calendars">Calendarios</string>
+    <string name="new_appointment">Nueva cita</string>
+    <string name="back">Atrás</string>
+    <string name="forward">Siguiente</string>
+    <string name="start_time">Fecha inicio</string>
+    <string name="end_time">Fecha fin</string>
+    <string name="no_upcoming_events">Aún no tienes ninguna cita\n Crea una y aparecerá aquí</string>
+
+    <!-- Validation messages -->
+    <string name="error">Error</string>
+    <string name="err_login">Se ha producido un error autenticando al usuario</string>
+    <string name="err_signup">Se ha producido un error registrando al usuario</string>
+    <string name="err_existing_appointmenr">Esa hora ya está reservada, por favor, elija otra.</string>
+    <string name="err_blocked_slot">El anfitrión no ha hecho disponible ésta hora, por favor, elija otra.</string>
+    <string name="err_not_empty">No puede estar vacío</string>
+    <string name="err_not_email">No es un email válido</string>
+    <string name="err_not_password">La contraseña debe tener 8 caracteres, letras y números</string>
+    <string name="err_password_dont_match">La contraseña no coincide</string>
+
+
+    <!-- Firestore parameters -->
+    <string name="firestore_collection_users" translatable="false">users</string>
+    <string name="firestore_collection_appointments" translatable="false">appointments</string>
+    <string name="firestore_collection_attendants" translatable="false">attendants</string>
+    <string name="firestore_collection_slots" translatable="false">slots</string>
+
+    <string name="firestore_document_properties" translatable="false">properties</string>
+
+    <string name="firestore_field_email" translatable="false">email</string>
+    <string name="firestore_field_name" translatable="false">name</string>
+    <string name="firestore_field_provider" translatable="false">provider</string>
+    <string name="firestore_field_date" translatable="false">date</string>
+    <string name="firestore_field_title" translatable="false">title</string>
+    <string name="firestore_field_description" translatable="false">description</string>
+    <string name="firestore_field_duration" translatable="false">duration</string>
+    <string name="firestore_field_host" translatable="false">host</string>
+    <string name="firestore_field_hour" translatable="false">hour</string>
+    <string name="firestore_field_minute" translatable="false">minute</string>
+    <string name="firestore_field_id" translatable="false">id</string>
+    <string name="firestore_field_appointment_id" translatable="false">appointmentId</string>
+    <string name="firestore_field_attendant_id" translatable="false">attendantId</string>
+    <string name="firestore_field_day" translatable="false">day</string>
+    <string name="firestore_field_end_time" translatable="false">endTime</string>
+    <string name="firestore_field_start_time" translatable="false">startTime</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="date_and_time">Fecha y hora</string>
+    <string name="create_appointment">Crear</string>
+    <string name="save">Guardar</string>
+    <string name="calendario">Calendario</string>
+    <string name="appointment_saved">Evento guardado</string>
+    <string name="home">Inicio</string>
+    <string name="provider_type">Proveedor</string>
+
+
+</resources>

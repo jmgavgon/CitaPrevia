@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_done"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="80dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="80dp">
+    
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/appointmentviewback"
+        app:layout_constraintBottom_creator="1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+    <TextView
+        android:id="@+id/settingsNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Nombre"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main_done"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="140dp"
+        tools:layout_constraintLeft_creator="0"
+        tools:layout_constraintTop_creator="0" />
+
+    <TextView
+        android:id="@+id/appointmentStartTextView"
+        android:layout_width="283dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/appointmentEndTextView"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/appointmentEndTextView"
+        app:layout_constraintStart_toEndOf="@+id/labelBarrier"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/settingsNameTextView"
+        app:layout_editor_absoluteX="73dp"
+        app:layout_editor_absoluteY="176dp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="0" />
+
+    <TextView
+        android:id="@+id/appointmentStartLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="16dp"
+        android:labelFor="@+id/appointmentStartTextView"
+        android:text="@string/email"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/appointmentStartTextView"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main_done"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="189dp"
+        tools:layout_constraintBaseline_creator="0"
+        tools:layout_constraintLeft_creator="0" />
+    
+
+    <TextView
+        android:id="@+id/appointmentEndLabelTextView"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:labelFor="@+id/appointmentEndTextView"
+        android:text="@string/provider_type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/appointmentEndTextView"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main_done"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="238dp"
+        tools:layout_constraintBaseline_creator="0"
+        tools:layout_constraintLeft_creator="0" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/labelBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="appointmentStartLabelTextView,appointmentEndLabelTextView"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <TextView
+        android:id="@+id/appointmentEndTextView"
+        android:layout_width="285dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/settingsNameTextView"
+        app:layout_constraintStart_toEndOf="@+id/labelBarrier"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/appointmentStartTextView"
+        app:layout_editor_absoluteX="73dp"
+        app:layout_editor_absoluteY="225dp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="0" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editAccount"
+        style="@style/EditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Editar cuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editSlots"
+        style="@style/EditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Editar horario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteAccount"
+        style="@style/RemoveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Borrar cuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >

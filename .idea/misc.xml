@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/google_icon_drawable.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/round_corners.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout-w936dp/floationg_action_button.xml" value="0.145703125" />
+        <entry key="app/src/main/res/layout-w936dp/grid_item.xml" value="0.145703125" />
+        <entry key="app/src/main/res/layout-w936dp/toolbar.xml" value="0.161328125" />
+        <entry key="app/src/main/res/layout/activity_app.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_appointment_view.xml" value="0.2669138090824838" />
+        <entry key="app/src/main/res/layout/activity_email_login.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_new_account.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/layout/activity_new_account_content.xml" value="0.21510416666666668" />
+        <entry key="app/src/main/res/layout/activity_new_appointment.xml" value="0.1566265060240964" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.35778985507246375" />
+        <entry key="app/src/main/res/layout/day_item.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/floating_action_button" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/fragment_calendar.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_calendar_day.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/fragment_coming_events.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/fragment_cslots.xml" value="0.196875" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/grid_item.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/hour_cell.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/list_item_appointment.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/list_item_user.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/menu/action_bar_menu.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.197" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

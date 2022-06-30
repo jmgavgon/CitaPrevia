@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/overView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/homeTextView"
+            android:layout_width="match_parent"
+            android:paddingTop="200dp"
+            android:layout_height="350dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center|top"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:text="Aún no tienes eventos" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/mainAction"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/overView"
+        android:background="@color/primary_dark"
+        android:elevation="4dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainAction"
+        android:background="@color/primary">
+
+        <GridView
+            android:id="@+id/shortcuts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:numColumns="3"
+            android:padding="20dp"
+            android:paddingTop="30dp"
+            android:stretchMode="columnWidth" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

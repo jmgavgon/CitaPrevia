@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1075972537488",
+    "project_id": "citaprevia-b228e",
+    "storage_bucket": "citaprevia-b228e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075972537488:android:2b5597a8708d593b96ec15",
+        "android_client_info": {
+          "package_name": "com.jmg.citaprevia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075972537488-c6k583o6sq5ngduvc6mgk9bh4hi11s4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jmg.citaprevia",
+            "certificate_hash": "9aea54f81f8c8fb5789d4f74b6344949d9dbbd1a"
+          }
+        },
+        {
+          "client_id": "1075972537488-3drn16lch0ubjp6b9894urlhsk9p1us2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu060YO2fhwAgMkDxd2F2xBpeDVVhfOM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075972537488-3drn16lch0ubjp6b9894urlhsk9p1us2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
